@@ -309,14 +309,14 @@ template {
 }
 @font-face {
   font-family: "Oswald-Regular";
-  src: url("/fonts/Oswald-Regular.woff2") format("woff2"), url("/fonts/Oswald-Regular.woff") format("woff");
+  src: url("./fonts/Oswald-Regular.woff2") format("woff2"), url("./fonts/Oswald-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Oswald-Bold";
-  src: url("/fonts/Oswald-Bold.woff2") format("woff2"), url("/fonts/Oswald-Bold.woff") format("woff");
+  src: url("./fonts/Oswald-Bold.woff2") format("woff2"), url("./fonts/Oswald-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -362,8 +362,8 @@ path {
   font: inherit;
   text-transform: uppercase;
   font-family: 'Oswald-Regular', Arial, sans-serif;
-  font-size: 14px ;
-  line-height: 18px ;
+  font-size: 14px;
+  line-height: 18px;
   border: none;
   color: #ffffff;
 }
@@ -497,7 +497,7 @@ path {
     right: 0;
     width: 50%;
     height: 698px;
-    background-image: url(/img//index-background-desktop@1x.jpg);
+    background-image: url("../img/index-background-desktop@1x.jpg");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: top right;
@@ -521,7 +521,7 @@ path {
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
   .page-header::after {
-    background-image: url(/img/index-background-desktop@2x.jpg);
+    background-image: url("../img/index-background-desktop@2x.jpg");
   }
 }
 .page-main__title {
@@ -756,7 +756,7 @@ path {
   left: 0;
   width: 100%;
   height: 305px;
-  background-image: url(/img/index-background-mobile.jpg);
+  background-image: url("../img/index-background-mobile.jpg");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 320px 305px;
@@ -1136,23 +1136,23 @@ path {
   background-size: 60px 60px ;
 }
 .how-to__item--time::before {
-  background-image: url(/img/advantage-clock@1x.png);
+  background-image: url("../img/advantage-clock@1x.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 60px 60px ;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
   .how-to__item--nature::before {
-    background-image: url(/img/advantage-leaf@2x.png);
+    background-image: url("../img/advantage-leaf@2x.png");
   }
   .how-to__item--struct::before {
-    background-image: url(/img/advantage-powder@2x.png);
+    background-image: url("../img/advantage-powder@2x.png");
   }
   .how-to__item--eat::before {
-    background-image: url(/img/advantage-dining@2x.png);
+    background-image: url("../img/advantage-dining@2x.png");
   }
   .how-to__item--time::before {
-    background-image: url(/img/advantage-clock@2x.png);
+    background-image: url("../img/advantage-clock@2x.png");
   }
 }
 .how-to__text {
@@ -1341,7 +1341,7 @@ path {
   bottom: 0;
   left: 0;
   height: 240px;
-  background-image: url(/img/before-mobile@1x.png);
+  background-image: url("../img/before-mobile@1x.png");
   background-position: right 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1354,7 +1354,7 @@ path {
   bottom: 0;
   right: 0;
   height: 300px;
-  background-image: url(/img/after-mobile@1x.png);
+  background-image: url("../img/after-mobile@1x.png");
   background-position: left 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1364,10 +1364,10 @@ path {
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
   .experience__cat--after {
-    background-image: url(/img/after-mobile@2x.png);
+    background-image: url("../img/after-mobile@2x.png");
   }
   .experience__cat--before {
-    background-image: url(/img/before-mobile@2x.png);
+    background-image: url("../img/before-mobile@2x.png");
   }
 }
 .experience__progress {
@@ -1502,7 +1502,7 @@ path {
     position: absolute;
     left: 65px;
     height: 465px;
-    background-image: url(/img/before-tablet@1x.png);
+    background-image: url("../img/before-tablet@1x.png");
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1513,7 +1513,7 @@ path {
     position: absolute;
     right: -65px;
     height: 465px;
-    background-image: url(/img/after-tablet@1x.png);
+    background-image: url("../img/after-tablet@1x.png");
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1556,10 +1556,10 @@ path {
 }
 @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 768px) and (min-resolution: 1.5dppx) {
   .experience__cat--after {
-    background-image: url(/img/after-tablet@2x.png);
+    background-image: url("../img/after-tablet@2x.png");
   }
   .experience__cat--before {
-    background-image: url(/img/before-tablet@2x.png);
+    background-image: url("../img/before-tablet@2x.png");
   }
 }
 @media (min-width: 1440px) {
@@ -1726,7 +1726,7 @@ path {
   left: 120px;
   width: 62px;
   height: 53px;
-  background-image: url(/img/map-pin.png);
+  background-image: url("img/map-pin.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -1762,7 +1762,7 @@ path {
     left: 330px;
     width: 124px;
     height: 106px;
-    background-image: url(/img/map-pin_tablet.png);
+    background-image: url("../img/map-pin_tablet.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
@@ -2270,7 +2270,7 @@ path {
   width: 280px;
   height: 289px;
   background-color: #68b738;
-  background-image: url(/img/gift-photo-mobile.jpg);
+  background-image: url("../img/gift-photo-mobile.jpg");
   background-position: 0 0;
   background-repeat: no-repeat;
   margin: 40px 0;
@@ -2301,7 +2301,7 @@ path {
     width: 708px;
     height: 200px;
     margin: 70px 0;
-    background-image: url(/img/gift-photo-tablet.jpg);
+    background-image: url("../img/gift-photo-tablet.jpg");
   }
   .stock__gift {
     width: 55px;
@@ -2323,7 +2323,7 @@ path {
             align-items: center;
     width: 245px;
     height: 289px;
-    background-image: url(/img/gift-photo-desktop.jpg);
+    background-image: url("../img/gift-photo-desktop.jpg");
     margin: 0;
   }
 }
